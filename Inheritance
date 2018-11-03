@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+class Teacher{
+	String designation ="Lecturer in CSE";
+	String organization ="SciFiSoft";
+
+	public void does(){
+		System.out.println("He is teaching Java...");
+	}
+
+	Teacher(){
+
+		System.out.println("Teacher class is called");
+
+	}
+
+
+}
+
+
+public class OOPs extends Teacher{
+
+	String subject ="Programming";
+
+	OOPs(){
+
+		System.out.println("OOPs class is called");
+
+	}
+
+	public static void main(String[] args) {
+		OOPs obj=new OOPs();
+
+		System.out.println(obj.designation);
+		System.out.println(obj.organization);
+		System.out.println(obj.subject);
+		obj.does();
+
+		//new OOPs();
+	}
+
+} 
