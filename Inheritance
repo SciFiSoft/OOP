@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 class Teacher{
 	String designation ="Lecturer in CSE";
 	String organization ="SciFiSoft";
@@ -17,12 +11,9 @@ class Teacher{
 	Teacher(){
 
 		System.out.println("Teacher class is called");
-
 	}
 
-
 }
-
 
 public class OOPs extends Teacher{
 
@@ -44,5 +35,5 @@ public class OOPs extends Teacher{
 
 		//new OOPs();
 	}
-
 } 
+//Space deleted
